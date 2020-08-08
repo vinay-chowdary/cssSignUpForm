@@ -166,12 +166,10 @@ button:active {
 
 /* animations */
 
+/* display-sign-up container by moving them to the right */
+
 .container.display-sign-up .sign-in-container {
   transform: translateX(100%);
-}
-
-.container.display-sign-up .overlay-container {
-  transform: translateX(-100%);
 }
 
 .container.display-sign-up .sign-up-container {
@@ -180,12 +178,23 @@ button:active {
   transform: translateX(100%);
 }
 
+/* move overlay container to the left */
+
+.container.display-sign-up .overlay-container {
+  transform: translateX(-100%);
+}
+
 .container.display-sign-up .overlay {
   transform: translateX(50%);
 }
+
+/* little animation to the content in overlay-panel */
+
 .container.display-sign-up .overlay-left {
   transform: translateX(0%);
 }
 .container.display-sign-up .overlay-right {
   transform: translateX(20%);
 }
+
+/* TODO: mobile layout */
